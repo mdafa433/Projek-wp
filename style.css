@@ -342,10 +342,11 @@ button{
 	font-size: 15px;
 	min-width: 80px;
 	text-align: center;
-    background: url(poto.jpg);
+        background: url(poto.jpg);
 	cursor: pointer;
 	color: #ffffff;
 	border-radius: 30px;
+	box-shadow: 0 3px 10px 0 rgba(100, 100, 100, 0.3);
 	border:0px;
 	height: 38px;
 }
