@@ -26,15 +26,12 @@
  var audio = document.getElementById('audio');
 var playPauseBTN = document.getElementById('playPauseBTN');
 var count = 0;
-    document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio('lagu.mp3');
-    audio.play();
-});
+    
 
 function playPause(){
 	if(count == 0){
 		count = 1;
-        audio.play();
+    audio.play();
 		playPauseBTN.innerHTML = "❚❚";
 	}else{
 		count = 0;
@@ -48,7 +45,7 @@ function stop(){
 	playPause()
 	audio.pause();
 	audio.currentTime = 0;
-	playPauseBTN.innerHTML = "Play ►";
+	playPauseBTN.innerHTML = "►";
 }
 
  
