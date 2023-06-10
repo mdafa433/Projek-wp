@@ -328,6 +328,27 @@ input:focus {
     -moz-transition: 1s all;
     -o-transition: 1s all;
 }
+.musik{
+    position:fixed;
+    z-index: 3;
+    width: 500px;
+    right: 0;
+    left: 11px;
+    top: 1.2em;
+
+    
+}
+button{
+	font-size: 15px;
+	min-width: 80px;
+	text-align: center;
+    background: url(poto.jpg);
+	cursor: pointer;
+	color: #ffffff;
+	border-radius: 30px;
+	border:0px;
+	height: 38px;
+}
 .button {
     background: #df4231;
     color: #ffffff;
